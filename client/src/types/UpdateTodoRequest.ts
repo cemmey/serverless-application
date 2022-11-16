@@ -1,4 +1,4 @@
-export interface TodoUpdate {
+export interface UpdateTodoRequest {
   name: string
   dueDate: string
   done: boolean

@@ -4,14 +4,15 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string",
-      "minLength": 2,
-      "maxLength": 200
+      "type": "string", "minLength": 2, "maxLength": 200
     },
     "dueDate": {
       "type": "string"
     }
   },
-  "required": ["name", "dueDate"],
+  "required": [
+    "name",
+    "dueDate"
+  ],
   "additionalProperties": false
 }
